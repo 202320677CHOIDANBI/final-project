@@ -4,8 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FINAL PROJECT</title>
+    <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
-    <h1>FINAL PROJECT</h1>
+    <header>
+      <h1>My Portfolio</h1>
+    </header>
+    <main>
+      <!-- 학년별 갤러리 -->
+      <section class="grade-gallery">
+        <div class="grade-container" data-aos="fade-up">
+          <a href="grade1.html">
+            <img src="images/grade1.jpg" alt="Grade 1" />
+            <h2>Grade 1</h2>
+            <i class="fas fa-book icon"></i>
+            <!-- 아이콘 추가 -->
+          </a>
+        </div>
+        <div class="grade-container" data-aos="fade-up" data-aos-delay="100">
+          <a href="grade2.html">
+            <img src="images/grade2.jpg" alt="Grade 2" />
+            <h2>Grade 2</h2>
+            <i class="fas fa-flask icon"></i>
+            <!-- 아이콘 추가 -->
+          </a>
+        </div>
+        <!-- 추가적인 학년별 항목은 필요에 따라 추가 -->
+      </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
