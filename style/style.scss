@@ -171,6 +171,7 @@ img {
   justify-content: center;
 }
 
+/* stylelint-disable-next-line selector-class-pattern */
 .album-box-Pop {
   display: inline-block;
   width: auto;
@@ -181,12 +182,14 @@ img {
   border-radius: 8px;
 }
 
+/* stylelint-disable-next-line selector-class-pattern */
 .album-container-Pop {
   display: flex;
   gap: 20px;
   justify-content: center;
 }
 
+/* stylelint-disable-next-line selector-class-pattern */
 .album-box-Jpop {
   display: inline-block;
   width: auto;
@@ -197,6 +200,7 @@ img {
   border-radius: 8px;
 }
 
+/* stylelint-disable-next-line selector-class-pattern */
 .album-container-Jpop {
   display: flex;
   gap: 20px;
