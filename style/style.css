@@ -93,8 +93,8 @@ footer p {
   }
 }
 img {
-  max-width: none;
-  max-height: none;
+  width: none;
+  height: 100%;
 }
 
 .album-box {
