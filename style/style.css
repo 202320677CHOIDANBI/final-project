@@ -33,6 +33,7 @@ header h1 {
 
 main .monthly-music {
   margin: 50px 0;
+  margin: 20px;
   text-align: center;
 }
 main .monthly-music h2 {
@@ -42,6 +43,7 @@ main .monthly-music h2 {
 main .monthly-music .album-item {
   position: relative;
   display: inline-block;
+  text-align: center;
 }
 main .monthly-music .album-item summary {
   list-style: none;
@@ -49,7 +51,8 @@ main .monthly-music .album-item summary {
 }
 main .monthly-music .album-item summary .album-cover {
   max-width: 100%;
-  border-radius: 10px;
+  border: 1px solid #a5d8ff;
+  border-radius: 8px;
   transition: transform 0.3s ease;
 }
 main .monthly-music .album-item summary .album-cover:hover {
@@ -107,14 +110,17 @@ main .genres .genre .genre-item .album-links {
   margin-top: 10px;
 }
 main .genres .genre .genre-item .album-links a {
+  display: block;
   padding: 5px 10px;
   margin: 0 5px;
-  color: #fff;
+  margin: 5px 0;
+  color: #007bff;
   text-decoration: none;
   background-color: #ff6347;
   border-radius: 5px;
 }
 main .genres .genre .genre-item .album-links a:hover {
+  text-decoration: underline;
   background-color: #ff3814;
 }
 
@@ -140,4 +146,19 @@ footer p {
     width: 80%;
     margin: 10px 0;
   }
+}
+.album-box {
+  display: inline-block;
+  width: 100%; /* Ensure the box fits the screen width */
+  max-width: 1200px; /* Adjust the maximum width as needed */
+  padding: 20px;
+  background-color: #d0ebff;
+  border: 2px solid #a5d8ff;
+  border-radius: 8px;
+}
+
+.album-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
 }

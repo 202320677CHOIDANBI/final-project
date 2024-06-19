@@ -54,6 +54,7 @@ header {
 main {
   .monthly-music {
     margin: 50px 0;
+    margin: 20px;
     text-align: center;
 
     h2 {
@@ -64,6 +65,7 @@ main {
     .album-item {
       position: relative;
       display: inline-block;
+      text-align: center;
 
       summary {
         list-style: none;
@@ -71,7 +73,8 @@ main {
 
         .album-cover {
           max-width: 100%;
-          border-radius: 10px;
+          border: 1px solid #a5d8ff;
+          border-radius: 8px;
           transition: transform 0.3s ease;
 
           &:hover {
@@ -141,14 +144,17 @@ main {
           margin-top: 10px;
 
           a {
+            display: block;
             padding: 5px 10px;
             margin: 0 5px;
-            color: #fff;
+            margin: 5px 0;
+            color: #007bff;
             text-decoration: none;
             background-color: $link-color;
             border-radius: 5px;
 
             &:hover {
+              text-decoration: underline;
               background-color: $link-hover-color;
             }
           }
@@ -185,4 +191,20 @@ footer {
       margin: 10px 0;
     }
   }
+}
+
+.album-box {
+  display: inline-block;
+  width: 100%; /* Ensure the box fits the screen width */
+  max-width: 1200px; /* Adjust the maximum width as needed */
+  padding: 20px;
+  background-color: #d0ebff;
+  border: 2px solid #a5d8ff;
+  border-radius: 8px;
+}
+
+.album-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
 }
