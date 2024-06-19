@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-// Variables
 $font-stack: 'Arial, sans-serif';
 $primary-color: #333;
 $secondary-color: #555;
@@ -12,14 +11,12 @@ $accent-color: #f5f5f5;
 $wave-color: #228be6;
 $link-color: #ff6347;
 
-// Mixins
 @mixin flex-center {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-// Base styles
 * {
   box-sizing: border-box;
   padding: 0;
@@ -38,7 +35,6 @@ body {
   margin: 0 auto;
 }
 
-// Header styles
 header {
   padding: 20px 0;
   background-color: $wave-color;
@@ -49,7 +45,6 @@ header {
   }
 }
 
-// Main styles
 main {
   .monthly-music {
     margin: 50px 0;
@@ -163,7 +158,6 @@ main {
   }
 }
 
-// Footer styles
 footer {
   padding: 10px 0;
   color: #fff;
@@ -175,7 +169,6 @@ footer {
   }
 }
 
-// Responsive design
 @media (width <= 768px) {
   .container {
     width: 95%;
@@ -194,8 +187,8 @@ footer {
 
 .album-box {
   display: inline-block;
-  width: 100%; /* Ensure the box fits the screen width */
-  max-width: 1200px; /* Adjust the maximum width as needed */
+  width: 100%;
+  max-width: 1200px;
   padding: 20px;
   background-color: #d0ebff;
   border: 2px solid #a5d8ff;
@@ -206,4 +199,9 @@ footer {
   display: flex;
   gap: 20px;
   justify-content: center;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
 }
