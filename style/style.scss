@@ -24,8 +24,10 @@ $link-color: #ff6347;
 }
 
 body {
+  margin: 0;
   font-family: $font-stack;
   line-height: 1.6;
+  line-height: 150%;
   color: $primary-color;
   background-color: $accent-color;
 }
